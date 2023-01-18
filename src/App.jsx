@@ -143,6 +143,11 @@ function Main() {
         <div className="container">
         <Shiba_Message />
         <Gallery urls={urls} />
+        <video controls>
+          <source src="rabbit320.mp4" type="video/mp4" />
+          <p>お使いのブラウザーは HTML 動画に対応していません。</p>
+        </video>
+        <a href="https://developer.mozilla.org/ja/docs/Learn/JavaScript/Client-side_web_APIs/Video_and_audio_APIs">引用元</a>
       </div>
       </section>
     </main>
